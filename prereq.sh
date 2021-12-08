@@ -17,9 +17,9 @@ sudo chmod +x /usr/local/bin/docker-compose
 sudo ln -s /usr/local/bin/docker-compose /usr/bin/docker-compose
 
 #part2
-sudo chmod +x build.sh
-mkdir /home/student/wordpress
-mv docker-compose.yml /home/student/wordpress
-mv build.sh /home/student/wordpress
+#sudo chmod +x build.sh
+#mkdir /home/student/wordpress
+#mv docker-compose.yml /home/student/wordpress
+#mv build.sh /home/student/wordpress
 
 sudo shutdown -r 0
