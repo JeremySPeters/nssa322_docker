@@ -2,14 +2,14 @@
 #@author: Jeremy Peters
 
 #firewall
-sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
-sudo firewall-cmd --zone=public --permanent --add-port=8181/tcp
-sudo systemctl restart firewalld
+#sudo firewall-cmd --zone=public --permanent --add-port=8080/tcp
+#sudo firewall-cmd --zone=public --permanent --add-port=8181/tcp
+#sudo systemctl restart firewalld
 
 #docker
-sudo yum install docker -y
-sudo systemctl enable docker
-sudo systemctl restart docker
+#sudo yum install docker -y
+#sudo systemctl enable docker
+#sudo systemctl restart docker
 
 #docker-compose
 sudo curl -L "https://github.com/docker/compose/releases/download/1.29.2/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
